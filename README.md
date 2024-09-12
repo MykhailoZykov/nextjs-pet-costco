@@ -1,1 +1,1 @@
-# nextjs-pet-costco-
+# nextjs-pet-costco
