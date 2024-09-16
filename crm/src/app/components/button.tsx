@@ -5,6 +5,7 @@ import clsx from 'clsx';
 export interface ButtonProps
   extends Partial<React.ButtonHTMLAttributes<HTMLButtonElement>> {
   disabled?: boolean;
+ 
 }
 
 export default function Button({ disabled, ...rest }: ButtonProps) {
