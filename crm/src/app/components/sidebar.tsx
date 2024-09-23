@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { useRouter, usePathname } from 'next/navigation';
 import SidebarItem from '@/app/components/sidebar-item';
+import { usePathname, useRouter } from 'next/navigation';
 
 export interface SidebarProps {}
 
