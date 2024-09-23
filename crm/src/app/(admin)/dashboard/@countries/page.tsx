@@ -3,9 +3,12 @@ import Image from 'next/image';
 import clsx from 'clsx';
 import { getSummaryCountries } from '@/lib/api';
 import DashboardCard from '@/app/components/dashboard-card';
+
 export interface PageProps {}
+
 export default async function Page({}: PageProps) {
   const data = await getSummaryCountries();
+
   return (
     <DashboardCard label="Countries of companies">
       <div className="flex items-end pb-5 px-5 gap-2">
